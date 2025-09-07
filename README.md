@@ -26,7 +26,7 @@ Database: IndexedDB (via idb
 
 Encryption: AES (CryptoJS)
 
-State Management: React hooks / context
+
 
 ##  Getting Started
 Prerequisites
