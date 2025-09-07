@@ -62,18 +62,16 @@ No data ever leaves your browser.
 
 ⚠️ Note: If you forget your password, your notes cannot be decrypted. Keep it safe!
 
-📂 Project Structure
 my-notes-rack/
 ├── src/
-│   ├── components/      # React components (NotesList, Header, etc.)
-│   ├── utils/              # IndexedDB utilities ,crypto
-│   ├── App.jsx           # Main app entry
-│   ├──index.css         # Main app entry
-│   └──  Main.jsx      
+│   ├── components/      # React components (NotesList, Editor, etc.)
+│   ├── utils/          # Encryption/decryption helpers (CryptoJS + AES),db
+│   ├── App.js           # Main app entry
+│   └── index.js         # React DOM bootstrap
 ├── public/              # Static assets
 ├── package.json
-├── projectReport.pdf
 └── README.md
+
 
 
 🤝 Contributing
